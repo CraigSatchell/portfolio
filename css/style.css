@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  max-width: 1920px;
+}
+
+header {
+  height: 80px;
+}
+
+section {
+  min-height: 500px;
+  margin: 25px;
+  padding: 10px;
+}
+
+#content {
+  margin-top: 25px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+div.flex-column-left {
+  padding: 0 50px 0 0;
+  margin-bottom: 25px;
+  width: 600px;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  color: #666666;
+}
+
+div.flex-column-right {
+  padding: 0 0 0 50px;
+  margin-bottom: 25px;
+  width: 600px;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  color: #666666;
+  text-align: center;
+}
+
+footer {
+  min-height: 100px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.toolbar {
+  height: 100px;
+  background-color: #336699;
+  box-shadow: 1px 3px 5px #666666;
+}
+
+.toolbar .navbar {
+  padding-right: 50px;
+  position: relative;
+  color: #999999;
+  text-align: right;
+}
+
+.toolbar .navbar li.menuItem {
+  display: inline-block;
+  padding: 2px;
+  font-size: 1.2em;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.toolbar .navbar li.menuItem a,
+li.menuItem a:visited {
+  text-decoration: none;
+  color: #999999;
+}
+
+.toolbar .navbar li.menuItem a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.card {
+  padding: 5px;
+}
+
+.card .cardMedia {
+  padding: 0;
+}
+
+.card .cardTitle {
+  padding: 2px;
+}
+
+.card .cardInfo {
+  padding: 5px;
+}
+
+.card .cardActions {
+  padding: 3px;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.logo {
+  padding: 10px;
+  margin: 10px 0 0 10px;
+  height: 190px;
+  filter: drop-shadow(1px 2px 3px #666);
+}
+
+.splash-image {
+  margin: -55px 0 0 0;
+  width: 600px;
+}
+
+.headshot {
+  margin-top: 5px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #999999;
+}
+
+.byline {
+  padding: 0;
+  margin: -160px 0 0 125px;
+  font-weight: bold;
+  color: #999999;
+  font-size: 1.3rem;
+}
+
+.byline a,
+.byline a:visited {
+  text-decoration: none;
+  color: #999999;
+}
+
+.social-icons {
+  text-align: right;
+  margin: 20px 55px 0 0;
+  filter: drop-shadow(1px 1px 1px #ffffff);
+}
+
+.social-icons img {
+  height: 30px;
+}
+
+.breadcrumb {
+  margin: -30px 0 0 175px;
+  color: #336699;
+}
+
+.button {
+  padding: 2px;
+  width: 100px;
+}
+
+div {
+  padding: 0;
+}
+
+h3 {
+   margin: 25px 0 10px 0;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin: 25px;
+}
