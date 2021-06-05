@@ -30,6 +30,17 @@ section {
   flex-flow: row wrap;
 }
 
+.wrapper-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #333333;
+   opacity: .9;
+   z-index: 5;
+}
+
 div.flex-column-left,
 div.flex-column-right {
   padding: 25px;
@@ -41,15 +52,14 @@ div.flex-column-right {
   text-align: center;
 }
 
-
-footer, footer p {
+footer,
+footer p {
   min-height: 30px;
   background-color: #f2f2f2;
   padding: 10px;
   font-size: 1em;
   color: #000000;
   text-align: center;
-
 }
 
 .toolbar {
@@ -92,12 +102,12 @@ li.menuItem a:visited {
 }
 
 .card .cardMedia {
- overflow: hidden;
+  overflow: hidden;
   height: 230px;
 }
 
 .card .cardMedia img {
-   width: 100%;
+  width: 100%;
 }
 
 .card .cardTitle {
@@ -109,22 +119,20 @@ li.menuItem a:visited {
   font-weight: bold;
   text-align: center;
   background-color: #336699;
-
 }
 
 .card .cardSubTitle {
-   text-align: center;
-   margin: 0;
-   padding: 2px;
-   font-size: 1.1em;
-   font-weight: bold;
-   color: #336699;
+  text-align: center;
+  margin: 0;
+  padding: 2px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #336699;
 }
 
 .card .cardInfo {
   padding: 10px;
 }
-
 
 .card .cardActions {
   padding-bottom: 25px;
@@ -134,20 +142,18 @@ li.menuItem a:visited {
 }
 
 .card .cardFrameworks {
-   margin: 5px 0 10px 0;
-   padding-bottom: 10px;
-   font-size: 0.9em;
-   color: #999999;
+  margin: 5px 0 10px 0;
+  padding-bottom: 10px;
+  font-size: 0.9em;
+  color: #999999;
 }
-
 
 .card .cardFrameworks span {
-   background-color: #f2f2f2;
-   color: #666666;
-   padding: 3px;
-   margin-right: 10px;
+  background-color: #f2f2f2;
+  color: #666666;
+  padding: 3px;
+  margin-right: 10px;
 }
-
 
 .logo {
   padding: 10px;
@@ -197,10 +203,10 @@ li.menuItem a:visited {
   color: #336699;
 }
 
-.button, button a {
-  padding: 2px;
+.button,
+button a {
+  padding: 5px;
   width: 150px;
-  height: 30px;
   border-radius: 20px;
   text-align: center;
   font-size: 1em;
@@ -209,10 +215,48 @@ li.menuItem a:visited {
   border: 2px solid #336699;
 }
 
-.button:hover, .button a:hover {
-   background-color: #336699;
-   color: #ffffff;
+.button:hover,
+.button a:hover {
+  background-color: #336699;
+  color: #ffffff;
 }
+
+
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #ffffff;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  border: 2px solid #336699;
+  box-shadow: 2px 3px 5px #666666;
+z-index: 10;
+}
+
+#modal .modal-title {
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #336699;
+}
+
+.modal-body {
+  width: 100%;
+  padding: 20px;
+}
+
+.modal-actions {
+   padding-bottom: 25px;
+   display: flex;
+   justify-content: space-around;
+   flex-flow: row wrap;
+ }
+
 
 div {
   padding: 0;
@@ -247,3 +291,28 @@ a:visited {
 a:hover {
   font-weight: bold;
 }
+
+.hide {
+   display: none;
+}
+
+
+label {
+   color: #336699;
+   font-weight: bold;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
