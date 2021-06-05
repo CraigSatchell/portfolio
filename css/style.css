@@ -39,16 +39,6 @@ div.flex-column-right {
   text-align: center;
 }
 
-/*
-div.flex-column-right {
-   padding: 0 0 0 0;
-   margin-bottom: 25px;
-  width: 600px;
-  line-height: 1.4em;
-  font-size: 1.2em;
-  color: #666666;
-  text-align: center;
-} */
 
 footer {
   min-height: 100px;
@@ -63,7 +53,7 @@ footer {
 }
 
 .toolbar .navbar {
-  margin-top: -20px;
+  margin-top: -15px;
   padding-right: 50px;
   color: #999999;
   text-align: right;
@@ -89,28 +79,67 @@ li.menuItem a:visited {
 }
 
 .card {
-  padding: 5px;
+  margin: 50px;
+  width: 350px;
+  border: 1px solid #336699;
 }
 
 .card .cardMedia {
-  padding: 0;
+ overflow: hidden;
+  height: 230px;
+}
+
+.card .cardMedia img {
+   width: 100%;
 }
 
 .card .cardTitle {
-  padding: 2px;
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #336699;
+}
+
+.card .cardSubTitle {
+   text-align: center;
+   margin: 0;
+   padding: 2px;
+   font-size: 1.1em;
+   font-weight: bold;
+   color: #336699;
 }
 
 .card .cardInfo {
-  padding: 5px;
+  padding: 10px;
 }
+
 
 .card .cardActions {
-  padding: 3px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
-.flex-grow {
-  flex-grow: 1;
+.card .cardFrameworks {
+   margin: 5px 0 10px 0;
+   padding-bottom: 10px;
+   font-size: 0.9em;
+   color: #999999;
 }
+
+
+.card .cardFrameworks span {
+   background-color: #f2f2f2;
+   color: #666666;
+   padding: 3px;
+   margin-right: 10px;
+}
+
 
 .logo {
   padding: 10px;
@@ -132,8 +161,8 @@ li.menuItem a:visited {
 }
 
 .byline {
-  padding: 0;
-  margin: -160px 0 0 125px;
+  padding-bottom: 7px;
+  margin: -165px 0 0 125px;
   font-weight: bold;
   color: #999999;
   font-size: 1.3rem;
@@ -160,9 +189,21 @@ li.menuItem a:visited {
   color: #336699;
 }
 
-.button {
+.button, button a {
   padding: 2px;
-  width: 100px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1em;
+  color: #336699;
+  font-weight: bold;
+  border: 2px solid #336699;
+}
+
+.button:hover, .button a:hover {
+   background-color: #336699;
+   color: #ffffff;
 }
 
 div {
