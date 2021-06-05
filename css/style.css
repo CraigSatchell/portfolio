@@ -68,14 +68,14 @@ footer p {
   box-shadow: 1px 3px 5px #666666;
 }
 
-.toolbar .navbar {
+.toolbar .navBar {
   margin-top: -15px;
   padding-right: 50px;
   color: #999999;
   text-align: right;
 }
 
-.toolbar .navbar li.menuItem {
+.toolbar .navBar li.menuItem {
   display: inline-block;
   padding: 2px;
   font-size: 1.2em;
@@ -83,13 +83,13 @@ footer p {
   list-style: none;
 }
 
-.toolbar .navbar li.menuItem a,
+.toolbar .navBar li.menuItem a,
 li.menuItem a:visited {
   text-decoration: none;
   color: #999999;
 }
 
-.toolbar .navbar li.menuItem a:hover {
+.toolbar .navBar li.menuItem a:hover {
   text-decoration: none;
   color: #ffffff;
 }
@@ -123,8 +123,8 @@ li.menuItem a:visited {
 
 .card .cardSubTitle {
   text-align: center;
+  padding: 0 0 5px 0;
   margin: 0;
-  padding: 2px;
   font-size: 1.1em;
   font-weight: bold;
   color: #336699;
