@@ -12,7 +12,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous">
    <link rel="stylesheet" href="./css/style.css">
-   <title>Craig Satchell - Freelance Full Stack Web Developer - MERN</title>
+   <title>Projects - Craig Satchell - Freelance Full Stack Web Developer</title>
 </head>
 
 <body>
@@ -27,8 +27,7 @@
                <ul>
                   <li class="menuItem"><a href="./about.html">About Me</a></li>
                   <li class="menuItem"><a href="./projects.html">Projects</a></li>
-                  <li class="menuItem" onclick="showModal()"><a
-                        href="#wrapper">Contact</a></li>
+                  <li class="menuItem"><a href="./contact.html">Contact</a></li>
                </ul>
             </div>
             <div class="social-icons"><a
@@ -41,131 +40,126 @@
             </div>
          </div>
       </header>
-      <section>
-         <div id="modal" class="hide">
-            <div class="modal-title">Contact</div>
-            <div class="modal-body">
-               <form><label for="fname">First Name</label><input type="text" id="fname"
-                     name="firstname" placeholder="Your name.."><label for="lname">Last
-                     Name</label><input type="text" id="lname" name="lastname"
-                     placeholder="Your last name.."><label for="country">Country</label>
-                  <select id="country" name="country">
-                     <option value="australia">Australia</option>
-                     <option value="canada">Canada</option>
-                     <option value="usa">USA</option>
-                  </select><label for="subject">Subject</label><textarea id="subject"
-                     name="subject"
-                     placeholder="Provide your feedback or make your inquiry."
-                     style="height:100px"></textarea>
-                  <div class="modal-actions">
-                     <div class="button" onclick="hideModal()">Submit</div>
-                     <div class="button" onclick="hideModal()">Cancel</div>
-                  </div>
-               </form>
+      <div id="modal" class="hide">
+         <div class="modal-title">Contact</div>
+         <div class="modal-body">
+            <form><label for="fname">First Name</label><input type="text" id="fname"
+                  name="firstname" placeholder="Your name.."><label for="lname">Last
+                  Name</label><input type="text" id="lname" name="lastname"
+                  placeholder="Your last name.."><label for="country">Country</label>
+               <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+               </select><label for="subject">Subject</label><textarea id="subject"
+                  name="subject" placeholder="Provide your feedback or make your inquiry."
+                  style="height:100px"></textarea>
+               <div class="modal-actions">
+                  <div class="button" onclick="hideModal()">Submit</div>
+                  <div class="button" onclick="hideModal()">Cancel</div>
+               </div>
+            </form>
+         </div>
+      </div>
+
+      <div id="content">
+         <div class="card">
+            <div class="cardTitle">
+               RPSLS
+            </div>
+            <div class="cardMedia">
+               <img src="./images/projects-image.png" alt="project-screenshot">
+            </div>
+            <div class="cardInfo">
+               <p class="cardSubTitle">Rock, Paper, Scissors, Lizard, Spock</p>
+               <p class="cardFrameworks">
+                  <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
+                  ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
+                  delectus, vitae asperiores necessitatibus quis laudantium
+                  exercitationem tempora numquam modi similique temporibus excepturi
+                  minima rem.
+               </p>
+            </div>
+            <div class="cardActions">
+               <div class="button"><a href="https://github.com/craigsatchell"
+                     target="_blank">GitHub Repo</a></div>
+               <div class="button">Demo</div>
             </div>
          </div>
 
-         <div id="content">
-            <div class="card">
-               <div class="cardTitle">
-                  RPSLS
-               </div>
-               <div class="cardMedia">
-                  <img src="./images/projects-image.png" alt="project-screenshot">
-               </div>
-               <div class="cardInfo">
-                  <p class="cardSubTitle">Rock, Paper, Scissors, Lizard, Spock</p>
-                  <p class="cardFrameworks">
-                     <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
-                     ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
-                     delectus, vitae asperiores necessitatibus quis laudantium
-                     exercitationem tempora numquam modi similique temporibus excepturi
-                     minima rem.
-                  </p>
-               </div>
-               <div class="cardActions">
-                  <div class="button"><a href="https://github.com/craigsatchell"
-                        target="_blank">GitHub Repo</a></div>
-                  <div class="button">Demo</div>
-               </div>
+         <div class="card">
+            <div class="cardTitle">
+               DAY TRIP PLANNER
             </div>
-
-            <div class="card">
-               <div class="cardTitle">
-                  DAY TRIP PLANNER
-               </div>
-               <div class="cardMedia">
-                  <img src="./images/projects-image.png" alt="project-screenshot">
-               </div>
-               <div class="cardInfo">
-                  <p class="cardSubTitle">Day Trip Generator</p>
-                  <p class="cardFrameworks">
-                     <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
-                     ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
-                     delectus, vitae asperiores necessitatibus quis laudantium
-                     exercitationem tempora numquam modi similique temporibus excepturi
-                     minima rem.
-                  </p>
-               </div>
-               <div class="cardActions">
-                  <div class="button"><a href="https://github.com/craigsatchell"
-                        target="_blank">GitHub Repo</a></div>
-                  <div class="button">Demo</div>
-               </div>
+            <div class="cardMedia">
+               <img src="./images/projects-image.png" alt="project-screenshot">
             </div>
-
-            <div class="card">
-               <div class="cardTitle">
-                  BATTLESHIP GAME
-               </div>
-               <div class="cardMedia">
-                  <img src="./images/projects-image.png" alt="project-screenshot">
-               </div>
-               <div class="cardInfo">
-                  <p class="cardSubTitle">Battleship Game Simulation</p>
-                  <p class="cardFrameworks">
-                     <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
-                     ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
-                     delectus, vitae asperiores necessitatibus quis laudantium
-                     exercitationem tempora numquam modi similique temporibus excepturi
-                     minima rem.
-                  </p>
-               </div>
-               <div class="cardActions">
-                  <div class="button"><a href="https://github.com/craigsatchell"
-                        target="_blank">GitHub Repo</a></div>
-                  <div class="button">Demo</div>
-               </div>
+            <div class="cardInfo">
+               <p class="cardSubTitle">Day Trip Generator</p>
+               <p class="cardFrameworks">
+                  <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
+                  ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
+                  delectus, vitae asperiores necessitatibus quis laudantium
+                  exercitationem tempora numquam modi similique temporibus excepturi
+                  minima rem.
+               </p>
             </div>
-
-            <div class="card">
-               <div class="cardTitle">
-                  ATM
-               </div>
-               <div class="cardMedia">
-                  <img src="./images/projects-image.png" alt="project-screenshot">
-               </div>
-               <div class="cardInfo">
-                  <p class="cardSubTitle">Bank ATM Simulator</p>
-                  <p class="cardFrameworks">
-                     <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
-                     ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
-                     delectus, vitae asperiores necessitatibus quis laudantium
-                     exercitationem tempora numquam modi similique temporibus excepturi
-                     minima rem.
-                  </p>
-               </div>
-               <div class="cardActions">
-                  <div class="button"><a href="https://github.com/craigsatchell"
-                        target="_blank">GitHub Repo</a></div>
-                  <div class="button">Demo</div>
-               </div>
+            <div class="cardActions">
+               <div class="button"><a href="https://github.com/craigsatchell"
+                     target="_blank">GitHub Repo</a></div>
+               <div class="button">Demo</div>
             </div>
-
          </div>
-      </section>
+
+         <div class="card">
+            <div class="cardTitle">
+               BATTLESHIP GAME
+            </div>
+            <div class="cardMedia">
+               <img src="./images/projects-image.png" alt="project-screenshot">
+            </div>
+            <div class="cardInfo">
+               <p class="cardSubTitle">Battleship Game Simulation</p>
+               <p class="cardFrameworks">
+                  <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
+                  ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
+                  delectus, vitae asperiores necessitatibus quis laudantium
+                  exercitationem tempora numquam modi similique temporibus excepturi
+                  minima rem.
+               </p>
+            </div>
+            <div class="cardActions">
+               <div class="button"><a href="https://github.com/craigsatchell"
+                     target="_blank">GitHub Repo</a></div>
+               <div class="button">Demo</div>
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="cardTitle">
+               ATM
+            </div>
+            <div class="cardMedia">
+               <img src="./images/projects-image.png" alt="project-screenshot">
+            </div>
+            <div class="cardInfo">
+               <p class="cardSubTitle">Bank ATM Simulator</p>
+               <p class="cardFrameworks">
+                  <span>Frameworks</span><i>NodeJS</i></br></br>Lorem
+                  ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos natus
+                  delectus, vitae asperiores necessitatibus quis laudantium
+                  exercitationem tempora numquam modi similique temporibus excepturi
+                  minima rem.
+               </p>
+            </div>
+            <div class="cardActions">
+               <div class="button"><a href="https://github.com/craigsatchell"
+                     target="_blank">GitHub Repo</a></div>
+               <div class="button">Demo</div>
+            </div>
+         </div>
+      </div>
    </div>
-   </section>
    <footer>
       <p>(C) Copyright 2021 Craig Satchell All Rights Reserved</p>
    </footer>

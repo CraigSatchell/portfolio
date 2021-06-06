@@ -12,7 +12,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous">
    <link rel="stylesheet" href="./css/style.css">
-   <title>Craig Satchell - Freelance Full Stack Web Developer - MERN</title>
+   <title>About - Craig Satchell - Freelance Full Stack Web Developer</title>
 </head>
 
 <body>
@@ -27,8 +27,7 @@
                <ul>
                   <li class="menuItem"><a href="./about.html">About Me</a></li>
                   <li class="menuItem"><a href="./projects.html">Projects</a></li>
-                  <li class="menuItem" onclick="showModal()"><a
-                        href="#wrapper">Contact</a></li>
+                  <li class="menuItem"><a href="./contact.html">Contact</a></li>
                </ul>
             </div>
             <div class="social-icons"><a
@@ -37,73 +36,72 @@
                      alt="linkedin-image"></a>
             </div>
             <div class="breadcrumb">
-               <h2>About</h2>
+               <h2>About Me</h2>
             </div>
          </div>
       </header>
-      <section>
-         <div id="modal" class="hide">
-            <div class="modal-title">Contact</div>
-            <div class="modal-body">
-               <form><label for="fname">First Name</label><input type="text" id="fname"
-                     name="firstname" placeholder="Your name.."><label for="lname">Last
-                     Name</label><input type="text" id="lname" name="lastname"
-                     placeholder="Your last name.."><label for="country">Country</label>
-                  <select id="country" name="country">
-                     <option value="australia">Australia</option>
-                     <option value="canada">Canada</option>
-                     <option value="usa">USA</option>
-                  </select><label for="subject">Subject</label><textarea id="subject"
-                     name="subject"
-                     placeholder="Provide your feedback or make your inquiry."
-                     style="height:100px"></textarea>
-                  <div class="modal-actions">
-                     <div class="button" onclick="hideModal()">Submit</div>
-                     <div class="button" onclick="hideModal()">Cancel</div>
-                  </div>
-               </form>
+
+      <div id="modal" class="hide">
+         <div class="modal-title">Contact</div>
+         <div class="modal-body">
+            <form><label for="fname">First Name</label><input type="text" id="fname"
+                  name="firstname" placeholder="Your name.."><label for="lname">Last
+                  Name</label><input type="text" id="lname" name="lastname"
+                  placeholder="Your last name.."><label for="country">Country</label>
+               <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+               </select><label for="subject">Subject</label><textarea id="subject"
+                  name="subject" placeholder="Provide your feedback or make your inquiry."
+                  style="height:100px"></textarea>
+               <div class="modal-actions">
+                  <div class="button" onclick="hideModal()">Submit</div>
+                  <div class="button" onclick="hideModal()">Cancel</div>
+               </div>
+            </form>
+         </div>
+      </div>
+
+      <div id="content">
+         <div class="flex-column-left">
+            <div>
+               <h2>Twenty Five Year Veteran of the
+                  United States Air Force
+               </h2>
+               <p>I served during Operation Dessert Storm and Operation Iraqi Freedom
+                  campaigns to name a couple. The intangibles instilled in me while
+                  serving, I am bring to you and any project or team. These qualities
+                  are service before self and excellence in a I do.</p>
+            </div>
+            <div>
+               <img src="./images/landing-img.png" alt="at-desk-working">
             </div>
          </div>
-
-         <div id="content">
-            <div class="flex-column-left">
-               <div>
-                  <h2>Twenty Five Year Veteran of the
-                     United States Air Force
-                  </h2>
-                  <p>I served during Operation Dessert Storm and Operation Iraqi Freedom
-                     campaigns to name a couple. The intangibles instilled in me while
-                     serving, I am bring to you and any project or team. These qualities
-                     are service before self and excellence in a I do.</p>
-               </div>
-               <div>
-                  <img src="./images/landing-img.png" alt="at-desk-working">
-               </div>
+         <div class="flex-column-right">
+            <div>
+               <h2>Highly Competent & Experienced</h2>
+               <p>Over 25 years direct experience in the information technology field.
+                  During that time, I have gained relevant experience while performing
+                  various roles. Some of which were technical support
+                  supervisor/manager, network installation project manager, call center
+                  supervisor, systems administrator and database administrator to name
+                  a few.
+               </p>
             </div>
-            <div class="flex-column-right">
-               <div>
-                  <h2>Highly Competent & Experienced</h2>
-                  <p>Over 25 years direct experience in the information technology field.
-                     During that time, I have gained relevant experience while performing
-                     various roles. Some of which were technical support
-                     supervisor/manager, network installation project manager, call center
-                     supervisor, systems administrator and database administrator to name
-                     a few.
-                  </p>
-               </div>
-               <div>
-                  <h2>Self-Taught</h2>
-                  <p>I am a self-taught computer programmer with significant experience in
-                     several popular programming and scripting languages to include C, Go,
-                     Python and JavaScript. In addition, I am well versed in CSS
-                     (Cascading Styles Sheets) and HTML (Hypertext Markup Language).
-                     Recently, I have concentrated my focus and efforts on full stack web
-                     development. Most notably, the MERN stack.</p>
-               </div>
-
+            <div>
+               <h2>Self-Taught</h2>
+               <p>I am a self-taught computer programmer with significant experience in
+                  several popular programming and scripting languages to include C, Go,
+                  Python and JavaScript. In addition, I am well versed in CSS
+                  (Cascading Styles Sheets) and HTML (Hypertext Markup Language).
+                  Recently, I have concentrated my focus and efforts on full stack web
+                  development. Most notably, the MERN stack.</p>
             </div>
+
          </div>
-      </section>
+      </div>
+
       <footer>
          <p>(C) Copyright 2021&nbsp;&nbsp; &nbsp;Craig Satchell&nbsp;&nbsp; &nbsp; All
             Rights Reserved</p>

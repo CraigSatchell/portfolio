@@ -12,7 +12,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous">
    <link rel="stylesheet" href="./css/style.css">
-   <title>Craig Satchell - Freelance Full Stack Web Developer-MERN</title>
+   <title>Contact - Craig Satchell - Freelance Full Stack Web Developer</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                      alt="linkedin-image"></a>
             </div>
             <div class="breadcrumb">
-               <h2></h2>
+               <h2>Contact</h2>
             </div>
          </div>
       </header>
@@ -61,25 +61,39 @@
             </form>
          </div>
       </div>
+
       <div id="content">
-         <div class="flex-column-left">
-            <img class="splash-image" src="./images/mern-blue-tint.png"
-               alt="mern-stack-image">
-         </div>
-         <div class="flex-column-right">
-            <img class="headshot" src="./images/craig_satchell_headshot.png"
-               alt="craigsatchell-headshot">
-            <h3>Hi, my name is Craig Satchell</h3>
-            <p>I possess over 25 years of experience in the Information Technology
-               field. During that time, I have gained relevant experience while
-               performing a myriad of information technology and associated roles.</p>
+         <div class="form-contact">
+            <div class="form-title">Contact</div>
+            <div class="form-wrapper">
+               <form>
+                  <label for="fname">First Name</label><input type="text" id="fname"
+                     name="firstname" placeholder="Your name..">
+                  <label for="lname">Last
+                     Name</label><input type="text" id="lname" name="lastname"
+                     placeholder="Your last name..">
+                  <label for="email">Email
+                     Name</label><input type="text" id="email" name="email"
+                     placeholder="Your email..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                     <option value="australia">Australia</option>
+                     <option value="canada">Canada</option>
+                     <option value="usa">USA</option>
+                  </select><label for="subject">Subject</label><textarea id="subject"
+                     name="subject"
+                     placeholder="Provide your feedback or make your inquiry."
+                     style="height:100px"></textarea>
+                  <div class="modal-actions">
+                     <div class="button">Submit</div>
+                     <div class="button">Cancel</div>
+                  </div>
+               </form>
+            </div>
 
-            <p>I am a self-taught computer programmer with significant experience in
-               several popular programming and scripting languages to include C, Go,
-               Python and JavaScript. <a href="./about.html"><i>more...</i></a></p>
          </div>
-
       </div>
+
       <footer>
          <p>(C) Copyright 2021&nbsp;&nbsp; &nbsp;Craig Satchell&nbsp;&nbsp; &nbsp; All
             Rights Reserved</p>

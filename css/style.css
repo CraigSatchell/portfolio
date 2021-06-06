@@ -23,17 +23,17 @@ section {
 }
 
 #content {
-  margin-top: 25px;
+  margin-top: 75px;
+  margin-bottom: 100px;
   padding: 25px;
   display: flex;
   justify-content: space-around;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
 }
 
 .wrapper-overlay {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: #336699;
@@ -52,14 +52,18 @@ div.flex-column-right {
   text-align: center;
 }
 
-footer,
-footer p {
+footer {
   min-height: 30px;
   background-color: #f2f2f2;
   padding: 10px;
   font-size: 1em;
   color: #000000;
   text-align: center;
+}
+
+footer p {
+  text-align: center;
+  padding: 5px;
 }
 
 .toolbar {
@@ -95,10 +99,15 @@ li.menuItem a:visited {
 }
 
 .card {
-  margin: 50px;
   width: 350px;
+  margin: 50px;
+}
+
+.card,
+.form-contact {
   border: 2px solid #336699;
   box-shadow: 2px 4px 5px #666666;
+  border-radius: 5px;
 }
 
 .card .cardMedia {
@@ -110,7 +119,8 @@ li.menuItem a:visited {
   width: 100%;
 }
 
-.card .cardTitle {
+.card .cardTitle,
+.form-contact .form-title {
   padding-top: 10px;
   width: 100%;
   height: 50px;
@@ -199,8 +209,10 @@ li.menuItem a:visited {
 }
 
 .breadcrumb h2 {
-  margin: -30px 0 0 175px;
-  color: #336699;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: -30px 0 0 200px;
+  color: #90b1d3;
 }
 
 .button,
@@ -229,7 +241,7 @@ button a {
   width: 400px;
   transform: translate(-50%, -50%);
   border: 2px solid #336699;
-  box-shadow: 2px 3px 5px #666666;
+  box-shadow: 2px 3px 15px #333333;
   z-index: 10;
 }
 
@@ -249,7 +261,8 @@ button a {
   padding: 20px;
 }
 
-.modal-actions {
+.modal-actions,
+.form-actions {
   padding-bottom: 25px;
   display: flex;
   justify-content: space-around;
@@ -294,7 +307,15 @@ a:hover {
   display: none;
 }
 
-label {
+.form-contact {
+  width: 400px;
+}
+
+.form-wrapper {
+  padding: 20px;
+}
+
+.form-title, label {
   color: #336699;
   font-weight: bold;
 }
