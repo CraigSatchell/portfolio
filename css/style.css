@@ -118,6 +118,8 @@ li.menuItem a:visited {
 .card .cardMedia {
   overflow: hidden;
   height: 230px;
+  background-color: #000000;
+  padding: 2px;
 }
 
 .card .cardMedia img {
@@ -168,6 +170,13 @@ li.menuItem a:visited {
   color: #666666;
   padding: 3px;
   margin-right: 10px;
+}
+
+video {
+  position: absolute;
+  top: 1;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
