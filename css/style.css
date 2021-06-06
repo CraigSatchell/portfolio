@@ -193,7 +193,7 @@ li.menuItem a:visited {
 .cs-byline {
   padding-bottom: 7px;
   margin: -180px 30px 0 170px;
-  color: #999999;
+  color: #90b1d3;
   font-size: 1.2rem;
   text-align: right;
 }
@@ -202,7 +202,7 @@ li.menuItem a:visited {
 .cs-byline a:visited,
 .cs-byline a:hover {
   text-decoration: none;
-  color: #999999;
+  color: #90b1d3;
   font-style: normal;
   font-weight: 400;
 }
