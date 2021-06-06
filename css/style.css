@@ -67,22 +67,23 @@ footer p {
 }
 
 .toolbar {
-  height: 100px;
+  height: 80px;
   background-color: #336699;
   box-shadow: 1px 3px 5px #666666;
 }
 
 .toolbar .navBar {
-  margin-top: -15px;
+  margin: 0 0 0 150px;
+  padding: 0;
   padding-right: 50px;
   color: #999999;
-  text-align: right;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .toolbar .navBar li.menuItem {
   display: inline-block;
-  padding: 2px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-right: 10px;
   list-style: none;
 }
@@ -95,9 +96,14 @@ li.menuItem a:visited {
 
 .toolbar .navBar li.menuItem a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #336699;
+  font-weight: 600;
 }
 
+.toolbar .navBar ul {
+  margin: 10px 0 0 25px;
+  padding: 0;
+}
 .card {
   width: 350px;
   margin: 50px;
@@ -167,8 +173,8 @@ li.menuItem a:visited {
 
 .logo {
   padding: 10px;
-  margin: 10px 0 0 10px;
-  height: 190px;
+  margin: -5px 0 0 10px;
+  height: 180px;
   filter: drop-shadow(1px 2px 3px #666);
 }
 
@@ -184,34 +190,39 @@ li.menuItem a:visited {
   border: 5px solid #999999;
 }
 
-.byline {
+.cs-byline {
   padding-bottom: 7px;
-  margin: -165px 0 0 125px;
-  font-weight: bold;
+  margin: -180px 30px 0 170px;
   color: #999999;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  text-align: right;
 }
 
-.byline a,
-.byline a:visited {
+.cs-byline a,
+.cs-byline a:visited,
+.cs-byline a:hover {
   text-decoration: none;
   color: #999999;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .social-icons {
   text-align: right;
-  margin: 30px 55px 0 0;
+  margin: 15px 35px 0 0;
   filter: drop-shadow(1px 1px 1px #ffffff);
 }
 
 .social-icons img {
+  margin-top: -90px;
   height: 30px;
 }
 
 .breadcrumb h2 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: bold;
-  margin: -30px 0 0 200px;
+  margin: -160px 0 0 130px;
+  text-align: left;
   color: #90b1d3;
 }
 
@@ -315,7 +326,8 @@ a:hover {
   padding: 20px;
 }
 
-.form-title, label {
+.form-title,
+label {
   color: #336699;
   font-weight: bold;
 }
