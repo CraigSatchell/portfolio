@@ -72,12 +72,14 @@ footer p {
 }
 
 .toolbar .navBar {
-  margin: 0 0 0 150px;
-  padding: 0;
+  margin: -2px 0 0 130px;
+  padding-left: 10px;
+  background-color: #f1f1f1;
   padding-right: 50px;
   color: #999999;
   text-align: left;
   border-bottom: 1px solid #f1f1f1;
+  box-shadow: 1px 1px 7px #666666;
 }
 
 .toolbar .navBar li.menuItem {
@@ -223,7 +225,7 @@ video {
 
 .social-icons img {
   margin-top: -90px;
-  height: 30px;
+  height: 25px;
 }
 
 .breadcrumb h2 {
